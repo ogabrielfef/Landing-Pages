@@ -5,24 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>TLOU</title>
+  <title>The Last of Us</title>
 </head>
 <body>
+  <!-- essa div esta sendo usada para renderizar o fundo rotativo -->
   <div id="slider">
     <img class="selected" src="./assets/backgorund-one.png"/>
     <img src="./assets/background-two.png"/>
     <img src="./assets/background-four.png"/>
     <img src="./assets/background-five.png"/>
   </div>
-  <div class="header">
-    <div class="logo"></div>
-    <div class="nav"></div>
-  </div>
-  <div class="content">
-    <div class="text"></div>
-    <div class="trailer"></div>
-  </div>
-  <div class="footer">
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <a>
+          <img src="./assets/logo.png">
+        </a>
+      </div>
+      <div class="nav">
+        <a>GALLERY</a>
+        <a>GAME</a>
+        <a>SERIE</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="text">
+        <img src="./assets/TheLastOfUs.png" />
+      </div>
+      <div class="trailer">
+        <p>The Last of Us se passa 20 anos após um surto global de fungos que infectou a
+          maior parte da população. A história nos conta a perigosa jornada de Joel e
+          Ellie através dos Estados Unidos para encontrar uma comunidade segura, abordando
+          durante essa jornada temas como amor, perda, superação e sobrevivência.</p>
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/vhII1qlcZ4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="footer">
+    </div>
   </div>
 
   <script src="script.js"></script>
