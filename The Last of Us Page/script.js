@@ -20,11 +20,12 @@ function play() {
 
 window.addEventListener('load', play);
 
+let home = document.querySelector('#home');
+let gallery = document.querySelector('#gallery');
+let game = document.querySelector('#game');
+let serie = document.querySelector('#serie');
+
 function renderContent(a) {
-  let home = document.querySelector('#home');
-  let gallery = document.querySelector('#gallery');
-  let game = document.querySelector('#game');
-  let serie = document.querySelector('#serie');
   home.style.display = 'none';
   gallery.style.display = 'none';
   game.style.display = 'none';
